@@ -22,7 +22,7 @@ public class UnidentifiedDeliveryConfiguration {
   @JsonSerialize(using = ByteArrayAdapter.Serializing.class)
   @JsonDeserialize(using = ByteArrayAdapter.Deserializing.class)
   @NotNull
-  @Size(min = 32, max = 32)
+  //  @Size(min = 32, max = 32)
   private byte[] privateKey;
 
   @NotNull
